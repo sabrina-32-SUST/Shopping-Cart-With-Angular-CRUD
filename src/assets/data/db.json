@@ -1,6 +1,27 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
+    "products": [
+      { "id": 1,
+        "name": "Dress",
+        "category_id": 2,
+        "Description": "Product Description  gose   here",
+        "price": 200,
+        "is_available": true,
+        "rating": 4,
+        "reviews": 120,
+        "vendor_name": "seller-1",
+        "materials": "Cotton"
+     },
+     { "id": 2,
+        "name": "Saree",
+        "category_id": 3,
+        "Description": "Product Description  gose   here",
+        "price": 400,
+        "is_available": true,
+        "rating": 4.5,
+        "reviews": 100,
+        "vendor_name": "seller-2",
+        "materials": "Silk"
+     }
     ],
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 }
