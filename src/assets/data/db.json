@@ -9,7 +9,9 @@
         "rating": 4,
         "reviews": 120,
         "vendor_name": "seller-1",
-        "materials": "Cotton"
+        "materials": "Cotton",
+        "product_images": "img1"
+
      },
      { "id": 2,
         "name": "Saree",
@@ -20,7 +22,9 @@
         "rating": 4.5,
         "reviews": 100,
         "vendor_name": "seller-2",
-        "materials": "Silk"
+        "materials": "Silk",
+        "image": "img2"
+
      }
     ],
     "comments": [
