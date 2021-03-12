@@ -13,11 +13,11 @@ const routes: Routes = [
   { path: '', component: ProductsComponent },
   { path: 'add-products', component: AddProductsComponent },
   { path: 'delete-products', component: DeleteProductsComponent },
-  { path: 'update-products', component: UpdateProductsComponent },
-  { path: 'view-all-products', component: ViewAllProductsComponent },
-  { path: 'view-all-products-by-category', component: ViewAllProductsByCategoryComponent },
-  { path: 'view-all-products-by-date', component: ViewAllProductsByDateComponent },
-  { path: 'view-products', component: ViewProductsComponent }
+  { path: 'update-products/:id', component: UpdateProductsComponent },
+  { path: 'list-products', component: ViewAllProductsComponent },
+  { path: 'search-products', component: ViewAllProductsByCategoryComponent },
+  { path: 'search-date', component: ViewAllProductsByDateComponent },
+  { path: 'view-products/:id', component: ViewProductsComponent }
 
 
  
