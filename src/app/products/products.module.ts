@@ -13,7 +13,16 @@ import { ViewAllProductsByCategoryComponent } from './view-all-products-by-categ
 
 
 @NgModule({
-  declarations: [ProductsComponent, AddProductsComponent, ViewProductsComponent, ViewAllProductsComponent, UpdateProductsComponent, DeleteProductsComponent, ViewAllProductsByDateComponent, ViewAllProductsByCategoryComponent],
+  declarations: [
+    ProductsComponent,
+    AddProductsComponent,
+    ViewProductsComponent,
+    ViewAllProductsComponent,
+    UpdateProductsComponent,
+    DeleteProductsComponent, 
+    ViewAllProductsByDateComponent,
+    ViewAllProductsByCategoryComponent
+  ],
   imports: [
     CommonModule,
     ProductsRoutingModule
